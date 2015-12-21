@@ -3,10 +3,41 @@
 <head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>Booyah</title>
-	<link rel="stylesheet" href="">
+	<title>Tic Tac Toe</title>
+	<link rel="stylesheet" href="styles.css">
 </head>
 <body>
-	<p>Tic Tac Toe in the works</p>
+  <div class="header clearfix">
+    <div>
+      <img src="logo.png" id="logo">
+    </div> 
+    <div class="choice">
+      <p>
+        Choose the style of game:
+        
+        
+        <button type="button" id="two_players">Against another player</button>
+ 
+      </p>
+    </div>
+    
+  	
+  </div>
+  <div class="container">
+    <div class="squares" ></div>
+    <div class="squares" ></div>
+    <div class="squares" ></div>
+    <div class="squares" ></div>
+    <div class="squares" >
+      <h1 class="x">X's Win!</h1>
+      <h1 class="o">O's Win!</h1>
+    </div>
+    <div class="squares" ></div>
+    <div class="squares" ></div>
+    <div class="squares" ></div>
+    <div class="squares" ></div>
+  </div>
+	 <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+  <script src="script.js"></script>
 </body>
 </html>
